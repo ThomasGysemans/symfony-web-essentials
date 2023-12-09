@@ -22,6 +22,16 @@ composer require sensiolabs/typescript-bundle
 composer require twbs/bootstrap
 ```
 
+## Use this template
+
+When using this template for the first time on a new project, please make sure to run this command first:
+
+```bash
+composer install && php bin/console importmap:install
+```
+
+This will install the dependencies on your machine.
+
 ## Entrypoints
 
 This template comes with a unique Controller: [HomeController](/src/Controller/HomeController.php) (with route="/").
